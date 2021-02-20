@@ -409,6 +409,10 @@ License: GPLv2
 .weather em small {
 	font-style: normal;
 }
+.darknessweather {
+	background: #a75a7a url(../fx/weather-darkness.png) no-repeat scroll left top;
+	color: #270422;
+}
 .sunweather,
 .sunnydayweather,
 .desolatelandweather {
