@@ -18,7 +18,7 @@ Config.whitelist = [
 // `defaultserver` specifies the server to use when the domain name in the
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
-	id: 'showdown',
+	id: 'crunchyleague',
 	host: 'crunchy-leagueserver.herokuapp.com',
 	port: 443,
 	httpport: 8000,
@@ -33,7 +33,7 @@ Config.customcolors = {
 	'zarel': 'aeo'
 };
 /*** Begin automatically generated configuration ***/
-Config.version = "0.11.2 (3e61d6ef)";
+Config.version = "0.11.2 (c0e7890c)";
 
 Config.routes = {
 	root: 'crunchy-leagueserver.herokuapp.com',
@@ -41,6 +41,5 @@ Config.routes = {
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',
-	psmain: 'pokemonshowdown.com',
 };
 /*** End automatically generated configuration ***/
