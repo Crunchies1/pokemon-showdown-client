@@ -17,7 +17,7 @@ $psconfig = [
 
 // database
 
-	'server' => 'localhost',
+	'server' => 'crunchy-leagueserver.herokuapp.com',
 	'username' => '',
 	'password' => '',
 	'database' => '',
