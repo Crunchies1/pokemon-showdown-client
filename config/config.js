@@ -41,5 +41,6 @@ Config.routes = {
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',
+	psmain: 'pokemonshowdown.com',
 };
 /*** End automatically generated configuration ***/
