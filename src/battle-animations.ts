@@ -851,6 +851,9 @@ class BattleScene {
 				hail: 'Hail',
 				deltastream: 'Strong Winds',
 				darkness: 'Darkness',
+				acidrain: 'Acid Rain',
+				fog: 'Fog',
+				radiation: 'Radiation'
 			};
 			weatherhtml = `${weatherNameTable[this.battle.weather] || this.battle.weather}`;
 			if (this.battle.weatherMinTimeLeft !== 0) {

@@ -103,7 +103,7 @@ exports.BattlePokemonSprites = {
 	golduck:{num:55,front:{w:68,h:74},back:{w:72,h:74}},
 	mankey:{num:56,front:{w:52,h:56},back:{w:65,h:60}},
 	primeape:{num:57,front:{w:71,h:65},back:{w:69,h:65}},
-	primeapeangry:{num:57},
+	primeapeangry:{num:57,front:{w:71,h:65},back:{w:69,h:65}},
 	growlithe:{num:58,front:{w:45,h:57},back:{w:62,h:57}},
 	arcanine:{num:59,front:{w:74,h:82},back:{w:118,h:82}},
 	poliwag:{num:60,front:{w:55,h:40},back:{w:68,h:40}},

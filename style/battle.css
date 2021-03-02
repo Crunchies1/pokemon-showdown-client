@@ -413,6 +413,18 @@ License: GPLv2
 	background: #a75a7a url(../fx/weather-darkness.png) no-repeat scroll left top;
 	color: #270422;
 }
+.acidrainweather {
+	background: #2c8b34 url(../fx/weather-acidrain.jpg) no-repeat scroll left top;
+	color: #060518;
+}
+.fogweather {
+	background: #ad99a2 url(../fx/weather-fog.jpg) no-repeat scroll left top;
+	color: #948091;
+}
+.radiationweather {
+	background: #217a43 url(../fx/weather-radiation.jpg) no-repeat scroll left top;
+	color: #145728;
+}
 .sunweather,
 .sunnydayweather,
 .desolatelandweather {
