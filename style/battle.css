@@ -413,6 +413,10 @@ License: GPLv2
 	background: #a75a7a url(../fx/weather-darkness.png) no-repeat scroll left top;
 	color: #270422;
 }
+.subzeroweather {
+	background: #AADDEE url(../fx/weather-subzero.jpg) no-repeat scroll left top;
+	color: #114455;
+}
 .acidrainweather {
 	background: #2c8b34 url(../fx/weather-acidrain.jpg) no-repeat scroll left top;
 	color: #060518;

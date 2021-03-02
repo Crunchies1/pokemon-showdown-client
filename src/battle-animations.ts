@@ -853,7 +853,8 @@ class BattleScene {
 				darkness: 'Darkness',
 				acidrain: 'Acid Rain',
 				fog: 'Fog',
-				radiation: 'Radiation'
+				radiation: 'Radiation',
+				subzero:'Subzero'
 			};
 			weatherhtml = `${weatherNameTable[this.battle.weather] || this.battle.weather}`;
 			if (this.battle.weatherMinTimeLeft !== 0) {

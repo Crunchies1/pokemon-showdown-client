@@ -33,7 +33,7 @@ Config.customcolors = {
 	'zarel': 'aeo'
 };
 /*** Begin automatically generated configuration ***/
-Config.version = "0.11.2 (b2799a2f)";
+Config.version = "0.11.2 (364bf5f7)";
 
 Config.routes = {
 	root: 'crunchy-leagueserver.herokuapp.com',
