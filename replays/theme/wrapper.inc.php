@@ -24,12 +24,12 @@ function ThemeHeaderTemplate() {
 <?php } ?>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
-	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/font-awesome.css?0.3121222675970301" />
-	<link rel="stylesheet" href="//crunchy-leagueserver.herokuapp.com/theme/panels.css?0.3438299396416129" />
-	<link rel="stylesheet" href="//crunchy-leagueserver.herokuapp.com/theme/main.css?0.7152606998449416" />
-	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/battle.css?0.8238128712318917" />
-	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/replay.css?0.5450546659825772" />
-	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/utilichart.css?0.3216805510243228" />
+	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/font-awesome.css?0.6121731447875118" />
+	<link rel="stylesheet" href="//crunchy-leagueserver.herokuapp.com/theme/panels.css?0.9059725647604628" />
+	<link rel="stylesheet" href="//crunchy-leagueserver.herokuapp.com/theme/main.css?0.782334530314291" />
+	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/battle.css?0.6979678408330359" />
+	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/replay.css?0.015970527659305622" />
+	<link rel="stylesheet" href="//crunchy-league.herokuapp.com/style/utilichart.css?0.4410757749913974" />
 
 	<!-- Workarounds for IE bugs to display trees correctly. -->
 	<!--[if lte IE 6]><style> li.tree { height: 1px; } </style><![endif]-->
@@ -53,11 +53,11 @@ function ThemeHeaderTemplate() {
 	<div class="pfx-topbar">
 		<div class="header">
 			<ul class="nav">
-				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//crunchy-leagueserver.herokuapp.com/?0.5741526238468682"><img src="//crunchy-leagueserver.herokuapp.com/images/pokemonshowdownbeta.png?0.9044097844253309" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
-				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.2634403957274727">Pok&eacute;dex</a></li>
-				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.6774910732782355">Replays</a></li>
-				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//crunchy-leagueserver.herokuapp.com/ladder/?0.072001813179843">Ladder</a></li>
-				<li><a class="button nav-last" href="//crunchy-leagueserver.herokuapp.com/forums/?0.6741998286574375">Forum</a></li>
+				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//crunchy-leagueserver.herokuapp.com/?0.5735458015391035"><img src="//crunchy-leagueserver.herokuapp.com/images/pokemonshowdownbeta.png?0.95256615517908" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
+				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.9232522907313288">Pok&eacute;dex</a></li>
+				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.5944328939911954">Replays</a></li>
+				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//crunchy-leagueserver.herokuapp.com/ladder/?0.7105022378195935">Ladder</a></li>
+				<li><a class="button nav-last" href="//crunchy-leagueserver.herokuapp.com/forums/?0.4315641241652397">Forum</a></li>
 			</ul>
 			<ul class="nav nav-play">
 				<li><a class="button greenbutton nav-first nav-last" href="http://play.pokemonshowdown.com/">Play</a></li>
@@ -74,10 +74,10 @@ function ThemeHeaderTemplate() {
 
 function ThemeScriptsTemplate() {
 ?>
-	<script src="//crunchy-league.herokuapp.com/js/lib/jquery-1.11.0.min.js?0.7311018732721699"></script>
-	<script src="//crunchy-league.herokuapp.com/js/lib/lodash.core.js?0.14997484620455537"></script>
-	<script src="//crunchy-league.herokuapp.com/js/lib/backbone.js?0.5342707734235497"></script>
-	<script src="//dex.pokemonshowdown.com/js/panels.js?0.36028670640883464"></script>
+	<script src="//crunchy-league.herokuapp.com/js/lib/jquery-1.11.0.min.js?0.7270403362467168"></script>
+	<script src="//crunchy-league.herokuapp.com/js/lib/lodash.core.js?0.6131716112669692"></script>
+	<script src="//crunchy-league.herokuapp.com/js/lib/backbone.js?0.09385529108378043"></script>
+	<script src="//dex.pokemonshowdown.com/js/panels.js?0.7840718386116381"></script>
 <?php
 }
 
@@ -86,21 +86,21 @@ function ThemeFooterTemplate() {
 ?>
 <?php $panels->scripts(); ?>
 
-	<script src="//crunchy-league.herokuapp.com/js/lib/jquery-cookie.js?0.15510439280983412"></script>
-	<script src="//crunchy-league.herokuapp.com/js/lib/html-sanitizer-minified.js?0.827950556056696"></script>
-	<script src="//crunchy-league.herokuapp.com/js/battle-sound.js?0.5515559285172764"></script>
-	<script src="//crunchy-league.herokuapp.com/config/config.js?0.289377579849065"></script>
-	<script src="//crunchy-league.herokuapp.com/js/battledata.js?0.11606381580414582"></script>
-	<script src="//crunchy-league.herokuapp.com/data/pokedex-mini.js?0.5462537838423027"></script>
-	<script src="//crunchy-league.herokuapp.com/data/pokedex-mini-bw.js?0.9950362932212029"></script>
-	<script src="//crunchy-league.herokuapp.com/data/graphics.js?0.7033631510027645"></script>
-	<script src="//crunchy-league.herokuapp.com/data/pokedex.js?0.6573681696250722"></script>
-	<script src="//crunchy-league.herokuapp.com/data/items.js?0.3056102183084797"></script>
-	<script src="//crunchy-league.herokuapp.com/data/moves.js?0.7867651205092163"></script>
-	<script src="//crunchy-league.herokuapp.com/data/abilities.js?0.04542416937625027"></script>
-	<script src="//crunchy-league.herokuapp.com/data/teambuilder-tables.js?0.42805024206843334"></script>
-	<script src="//crunchy-league.herokuapp.com/js/battle-tooltips.js?0.6978496110863184"></script>
-	<script src="//crunchy-league.herokuapp.com/js/battle.js?0.6398643837251237"></script>
+	<script src="//crunchy-league.herokuapp.com/js/lib/jquery-cookie.js?0.7970647945513796"></script>
+	<script src="//crunchy-league.herokuapp.com/js/lib/html-sanitizer-minified.js?0.1630960914557602"></script>
+	<script src="//crunchy-league.herokuapp.com/js/battle-sound.js?0.886947158146203"></script>
+	<script src="//crunchy-league.herokuapp.com/config/config.js?0.8159568431669528"></script>
+	<script src="//crunchy-league.herokuapp.com/js/battledata.js?0.6574960480170715"></script>
+	<script src="//crunchy-league.herokuapp.com/data/pokedex-mini.js?0.7382631023899007"></script>
+	<script src="//crunchy-league.herokuapp.com/data/pokedex-mini-bw.js?0.47229521548293074"></script>
+	<script src="//crunchy-league.herokuapp.com/data/graphics.js?0.8226592645791542"></script>
+	<script src="//crunchy-league.herokuapp.com/data/pokedex.js?0.08470949524469873"></script>
+	<script src="//crunchy-league.herokuapp.com/data/items.js?0.6024907068549399"></script>
+	<script src="//crunchy-league.herokuapp.com/data/moves.js?0.9868118106617543"></script>
+	<script src="//crunchy-league.herokuapp.com/data/abilities.js?0.8614037903746539"></script>
+	<script src="//crunchy-league.herokuapp.com/data/teambuilder-tables.js?0.9904885131617225"></script>
+	<script src="//crunchy-league.herokuapp.com/js/battle-tooltips.js?0.05712272950741326"></script>
+	<script src="//crunchy-league.herokuapp.com/js/battle.js?0.36347242352304376"></script>
 	<script src="/js/replay.js?51e024e3"></script>
 
 </body></html>
