@@ -1073,6 +1073,10 @@ if(ability==='defeatist'&&serverPokemon.hp<=serverPokemon.maxhp/2){
 stats.atk=Math.floor(stats.atk*0.5);
 stats.spa=Math.floor(stats.spa*0.5);
 }
+if(ability==='pride'&&serverPokemon.hp>=serverPokemon.maxhp/2){
+stats.atk=Math.floor(stats.atk*1.5);
+stats.spa=Math.floor(stats.spa*1.5);
+}
 if(clientPokemon){
 if('slowstart'in clientPokemon.volatiles){
 stats.atk=Math.floor(stats.atk*0.5);
@@ -2176,7 +2180,7 @@ isFast=true;
 }else if(abilityid==='unburden'||abilityid==='speedboost'||abilityid==='motordrive'){
 isFast=true;
 moveCount['Ultrafast']=1;
-}else if(abilityid==='chlorophyll'||abilityid==='swiftswim'||abilityid==='sandrush'||abilityid==='nightstalker'||abilityid==='radiationrush'){
+}else if(abilityid==='chlorophyll'||abilityid==='swiftswim'||abilityid==='sandrush'){
 isFast=true;
 moveCount['Ultrafast']=2;
 }else if(itemid==='salacberry'){

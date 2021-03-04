@@ -181,6 +181,8 @@ exports.BattlePokemonSprites = {
 	rhydon:{num:112,front:{w:96,h:82},frontf:{w:96,h:82},back:{w:105,h:78}},
 	chansey:{num:113,front:{w:74,h:58},back:{w:71,h:58}},
 	tangela:{num:114,front:{w:58,h:53},back:{w:56,h:53}},
+	kangaskid:{num:-5015},
+	kangasking:{num:-5016},
 	kangaskhan:{num:115,front:{w:96,h:87},back:{w:113,h:87}},
 	kangaskhanmega:{num:115,front:{w:107,h:89},back:{w:131,h:86}},
 	horsea:{num:116,front:{w:31,h:57},back:{w:34,h:54}},

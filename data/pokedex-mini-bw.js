@@ -180,6 +180,8 @@ exports.BattlePokemonSpritesBW = {
 	rhydon:{num:112},
 	chansey:{num:113},
 	tangela:{num:114},
+	kangaskid:{num:-5015},
+	kangasking:{num:-5016},
 	kangaskhan:{num:115},
 	kangaskhanmega:{num:115},
 	horsea:{num:116},

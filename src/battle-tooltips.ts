@@ -1073,6 +1073,10 @@ class BattleTooltips {
 			stats.atk = Math.floor(stats.atk * 0.5);
 			stats.spa = Math.floor(stats.spa * 0.5);
 		}
+		if (ability === 'pride' && serverPokemon.hp >= serverPokemon.maxhp / 2) {
+			stats.atk = Math.floor(stats.atk * 1.5);
+			stats.spa = Math.floor(stats.spa * 1.5);
+		}
 		if (clientPokemon) {
 			if ('slowstart' in clientPokemon.volatiles) {
 				stats.atk = Math.floor(stats.atk * 0.5);
